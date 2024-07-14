@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\SISTEMA\SISTEMA-DE-EMOLIENTES\BUILD\CMAKEFILES\54F335BB2AD4161086E9E70FEE4DAAEF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\cmake-3.29.3-windows-x86_64\bin\cmake.exe" -SC:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes -BC:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/EmolientesVenta.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

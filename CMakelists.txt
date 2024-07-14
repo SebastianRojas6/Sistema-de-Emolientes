@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Nombre del proyecto
+project(EmolientesVenta)
+
+# Configuración para encontrar vcpkg
+set(CMAKE_TOOLCHAIN_FILE "${CMAKE_SOURCE_DIR}/vcpkg/scripts/buildsystems/vcpkg.cmake")
+
+# Agregar ejecutable
+add_executable(${PROJECT_NAME} main.cpp)
+
+# Buscar e incluir Crow y SQLite
+find_package(Crow CONFIG REQUIRED)
+find_package(SQLite3 REQUIRED)
+
+# Incluir directorios y enlazar bibliotecas
+target_include_directories(${PROJECT_NAME} PRIVATE ${CROW_INCLUDE_DIRS})
+target_link_libraries(${PROJECT_NAME} PRIVATE Crow::Crow SQLite::SQLite3)
