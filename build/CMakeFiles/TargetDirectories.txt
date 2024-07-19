@@ -1,3 +1,3 @@
-C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/EmolientesVenta.dir
+C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/SistemaDeVentaEmolientes.dir
 C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/ZERO_CHECK.dir

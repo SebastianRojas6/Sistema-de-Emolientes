@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-      Compilaci├│n iniciada a las 14/07/2024 12:05:13.
+      Compilaci├│n iniciada a las 18/07/2024 23:01:25.
       
       Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -62,7 +62,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:02.56
+      Tiempo transcurrido 00:00:02.33
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -78,7 +78,7 @@ events:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -88,7 +88,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-      Compilaci├│n iniciada a las 14/07/2024 12:05:16.
+      Compilaci├│n iniciada a las 18/07/2024 23:01:28.
       
       Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -126,7 +126,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:02.25
+      Tiempo transcurrido 00:00:02.41
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -141,12 +141,12 @@ events:
     backtrace:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-pjcw32"
-      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-pjcw32"
+      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-lzb17x"
+      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-lzb17x"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -158,33 +158,33 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-pjcw32'
+        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-lzb17x'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_113ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68d0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compilaci├│n iniciada a las 14/07/2024 12:05:20.
+        Compilaci├│n iniciada a las 18/07/2024 23:01:31.
         
-        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pjcw32\\cmTC_113ab.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzb17x\\cmTC_68d0f.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_113ab.dir\\Debug\\".
+          Creando directorio "cmTC_68d0f.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pjcw32\\Debug\\".
-          Creando directorio "cmTC_113ab.dir\\Debug\\cmTC_113ab.tlog\\".
+          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzb17x\\Debug\\".
+          Creando directorio "cmTC_68d0f.dir\\Debug\\cmTC_68d0f.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_113ab.dir\\Debug\\cmTC_113ab.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_113ab.dir\\Debug\\cmTC_113ab.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_68d0f.dir\\Debug\\cmTC_68d0f.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_68d0f.dir\\Debug\\cmTC_68d0f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_113ab.dir\\Debug\\\\" /Fd"cmTC_113ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68d0f.dir\\Debug\\\\" /Fd"cmTC_68d0f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.40.33808 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_113ab.dir\\Debug\\\\" /Fd"cmTC_113ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68d0f.dir\\Debug\\\\" /Fd"cmTC_68d0f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pjcw32\\Debug\\cmTC_113ab.exe" /INCREMENTAL /ILK:"cmTC_113ab.dir\\Debug\\cmTC_113ab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-pjcw32/Debug/cmTC_113ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-pjcw32/Debug/cmTC_113ab.lib" /MACHINE:X64  /machine:x64 cmTC_113ab.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_113ab.vcxproj -> C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pjcw32\\Debug\\cmTC_113ab.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzb17x\\Debug\\cmTC_68d0f.exe" /INCREMENTAL /ILK:"cmTC_68d0f.dir\\Debug\\cmTC_68d0f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-lzb17x/Debug/cmTC_68d0f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-lzb17x/Debug/cmTC_68d0f.lib" /MACHINE:X64  /machine:x64 cmTC_68d0f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_68d0f.vcxproj -> C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzb17x\\Debug\\cmTC_68d0f.exe
         PostBuildEvent:
           setlocal
-          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/HP/Desktop/UNMSM/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-pjcw32/Debug/cmTC_113ab.exe -installedDir C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/HP/Desktop/UNMSM/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-lzb17x/Debug/cmTC_68d0f.exe -installedDir C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/debug/bin -OutVariable out
           if %errorlevel% neq 0 goto :cmEnd
           :cmEnd
           endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -194,15 +194,15 @@ events:
           if %errorlevel% neq 0 goto :VCEnd
           :VCEnd
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_113ab.dir\\Debug\\cmTC_113ab.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_113ab.dir\\Debug\\cmTC_113ab.tlog\\cmTC_113ab.lastbuildstate".
-        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pjcw32\\cmTC_113ab.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_68d0f.dir\\Debug\\cmTC_68d0f.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_68d0f.dir\\Debug\\cmTC_68d0f.tlog\\cmTC_68d0f.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzb17x\\cmTC_68d0f.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:02.15
+        Tiempo transcurrido 00:00:02.23
         
       exitCode: 0
   -
@@ -210,7 +210,7 @@ events:
     backtrace:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -228,7 +228,7 @@ events:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33808.0
@@ -238,12 +238,12 @@ events:
     backtrace:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-jposr6"
-      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-jposr6"
+      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-wrc2pb"
+      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-wrc2pb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -256,33 +256,33 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-jposr6'
+        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-wrc2pb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c2ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d472e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compilaci├│n iniciada a las 14/07/2024 12:05:23.
+        Compilaci├│n iniciada a las 18/07/2024 23:01:34.
         
-        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jposr6\\cmTC_5c2ad.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrc2pb\\cmTC_d472e.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_5c2ad.dir\\Debug\\".
+          Creando directorio "cmTC_d472e.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jposr6\\Debug\\".
-          Creando directorio "cmTC_5c2ad.dir\\Debug\\cmTC_5c2ad.tlog\\".
+          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrc2pb\\Debug\\".
+          Creando directorio "cmTC_d472e.dir\\Debug\\cmTC_d472e.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_5c2ad.dir\\Debug\\cmTC_5c2ad.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_5c2ad.dir\\Debug\\cmTC_5c2ad.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_d472e.dir\\Debug\\cmTC_d472e.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_d472e.dir\\Debug\\cmTC_d472e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5c2ad.dir\\Debug\\\\" /Fd"cmTC_5c2ad.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d472e.dir\\Debug\\\\" /Fd"cmTC_d472e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.40.33808 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5c2ad.dir\\Debug\\\\" /Fd"cmTC_5c2ad.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d472e.dir\\Debug\\\\" /Fd"cmTC_d472e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jposr6\\Debug\\cmTC_5c2ad.exe" /INCREMENTAL /ILK:"cmTC_5c2ad.dir\\Debug\\cmTC_5c2ad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-jposr6/Debug/cmTC_5c2ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-jposr6/Debug/cmTC_5c2ad.lib" /MACHINE:X64  /machine:x64 cmTC_5c2ad.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5c2ad.vcxproj -> C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jposr6\\Debug\\cmTC_5c2ad.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrc2pb\\Debug\\cmTC_d472e.exe" /INCREMENTAL /ILK:"cmTC_d472e.dir\\Debug\\cmTC_d472e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-wrc2pb/Debug/cmTC_d472e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-wrc2pb/Debug/cmTC_d472e.lib" /MACHINE:X64  /machine:x64 cmTC_d472e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d472e.vcxproj -> C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrc2pb\\Debug\\cmTC_d472e.exe
         PostBuildEvent:
           setlocal
-          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/HP/Desktop/UNMSM/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-jposr6/Debug/cmTC_5c2ad.exe -installedDir C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/HP/Desktop/UNMSM/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-wrc2pb/Debug/cmTC_d472e.exe -installedDir C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/debug/bin -OutVariable out
           if %errorlevel% neq 0 goto :cmEnd
           :cmEnd
           endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -292,15 +292,15 @@ events:
           if %errorlevel% neq 0 goto :VCEnd
           :VCEnd
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_5c2ad.dir\\Debug\\cmTC_5c2ad.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_5c2ad.dir\\Debug\\cmTC_5c2ad.tlog\\cmTC_5c2ad.lastbuildstate".
-        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jposr6\\cmTC_5c2ad.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_d472e.dir\\Debug\\cmTC_d472e.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_d472e.dir\\Debug\\cmTC_d472e.tlog\\cmTC_d472e.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrc2pb\\cmTC_d472e.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:02.31
+        Tiempo transcurrido 00:00:02.25
         
       exitCode: 0
   -
@@ -308,7 +308,7 @@ events:
     backtrace:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -326,7 +326,7 @@ events:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33808.0
@@ -344,10 +344,10 @@ events:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/share/crow/CrowConfig.cmake:32 (find_dependency)"
       - "C:/Users/HP/Desktop/UNMSM/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     directories:
-      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-z4wo1y"
-      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-z4wo1y"
+      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-itm0xi"
+      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-itm0xi"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -360,40 +360,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-z4wo1y'
+        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-itm0xi'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_592c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a293c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compilaci├│n iniciada a las 14/07/2024 12:05:26.
+        Compilaci├│n iniciada a las 18/07/2024 23:01:37.
         
-        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\cmTC_592c7.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\cmTC_a293c.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_592c7.dir\\Debug\\".
+          Creando directorio "cmTC_a293c.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\Debug\\".
-          Creando directorio "cmTC_592c7.dir\\Debug\\cmTC_592c7.tlog\\".
+          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\Debug\\".
+          Creando directorio "cmTC_a293c.dir\\Debug\\cmTC_a293c.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_592c7.dir\\Debug\\cmTC_592c7.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_592c7.dir\\Debug\\cmTC_592c7.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_a293c.dir\\Debug\\cmTC_a293c.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_a293c.dir\\Debug\\cmTC_a293c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_592c7.dir\\Debug\\\\" /Fd"cmTC_592c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a293c.dir\\Debug\\\\" /Fd"cmTC_a293c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\src.c"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.40.33808 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_592c7.dir\\Debug\\\\" /Fd"cmTC_592c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a293c.dir\\Debug\\\\" /Fd"cmTC_a293c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\src.c"
           src.c
-        C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\cmTC_592c7.vcxproj]
-        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\cmTC_592c7.vcxproj" (destinos predeterminados) -- ERROR.
+        C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\cmTC_a293c.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\cmTC_a293c.vcxproj" (destinos predeterminados) -- ERROR.
         
         ERROR al compilar.
         
-        "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\cmTC_592c7.vcxproj" (destino predeterminado) (1) ->
+        "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\cmTC_a293c.vcxproj" (destino predeterminado) (1) ->
         (ClCompile destino) -> 
-          C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4wo1y\\cmTC_592c7.vcxproj]
+          C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itm0xi\\cmTC_a293c.vcxproj]
         
             0 Advertencia(s)
             1 Errores
         
-        Tiempo transcurrido 00:00:00.93
+        Tiempo transcurrido 00:00:00.86
         
       exitCode: 1
   -
@@ -408,10 +408,10 @@ events:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/share/crow/CrowConfig.cmake:32 (find_dependency)"
       - "C:/Users/HP/Desktop/UNMSM/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     directories:
-      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-77h9e1"
-      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-77h9e1"
+      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-82568w"
+      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-82568w"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -424,42 +424,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-77h9e1'
+        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-82568w'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_282e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90afb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compilaci├│n iniciada a las 14/07/2024 12:05:28.
+        Compilaci├│n iniciada a las 18/07/2024 23:01:39.
         
-        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\cmTC_282e1.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\cmTC_90afb.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_282e1.dir\\Debug\\".
+          Creando directorio "cmTC_90afb.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\Debug\\".
-          Creando directorio "cmTC_282e1.dir\\Debug\\cmTC_282e1.tlog\\".
+          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\Debug\\".
+          Creando directorio "cmTC_90afb.dir\\Debug\\cmTC_90afb.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_282e1.dir\\Debug\\cmTC_282e1.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_282e1.dir\\Debug\\cmTC_282e1.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_90afb.dir\\Debug\\cmTC_90afb.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_90afb.dir\\Debug\\cmTC_90afb.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_282e1.dir\\Debug\\\\" /Fd"cmTC_282e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90afb.dir\\Debug\\\\" /Fd"cmTC_90afb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\CheckFunctionExists.c"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.40.33808 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_282e1.dir\\Debug\\\\" /Fd"cmTC_282e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90afb.dir\\Debug\\\\" /Fd"cmTC_90afb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\Debug\\cmTC_282e1.exe" /INCREMENTAL /ILK:"cmTC_282e1.dir\\Debug\\cmTC_282e1.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-77h9e1/Debug/cmTC_282e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-77h9e1/Debug/cmTC_282e1.lib" /MACHINE:X64  /machine:x64 cmTC_282e1.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\cmTC_282e1.vcxproj]
-        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\cmTC_282e1.vcxproj" (destinos predeterminados) -- ERROR.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\Debug\\cmTC_90afb.exe" /INCREMENTAL /ILK:"cmTC_90afb.dir\\Debug\\cmTC_90afb.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-82568w/Debug/cmTC_90afb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-82568w/Debug/cmTC_90afb.lib" /MACHINE:X64  /machine:x64 cmTC_90afb.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\cmTC_90afb.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\cmTC_90afb.vcxproj" (destinos predeterminados) -- ERROR.
         
         ERROR al compilar.
         
-        "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\cmTC_282e1.vcxproj" (destino predeterminado) (1) ->
+        "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\cmTC_90afb.vcxproj" (destino predeterminado) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77h9e1\\cmTC_282e1.vcxproj]
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82568w\\cmTC_90afb.vcxproj]
         
             0 Advertencia(s)
             1 Errores
         
-        Tiempo transcurrido 00:00:00.98
+        Tiempo transcurrido 00:00:00.87
         
       exitCode: 1
   -
@@ -474,10 +474,10 @@ events:
       - "C:/Program Files/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/share/crow/CrowConfig.cmake:32 (find_dependency)"
       - "C:/Users/HP/Desktop/UNMSM/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     directories:
-      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-shkvub"
-      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-shkvub"
+      source: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-nzxb5j"
+      binary: "C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-nzxb5j"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -490,42 +490,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-shkvub'
+        Change Dir: 'C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-nzxb5j'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fb0be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e3c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compilaci├│n iniciada a las 14/07/2024 12:05:29.
+        Compilaci├│n iniciada a las 18/07/2024 23:01:40.
         
-        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\cmTC_fb0be.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\cmTC_7e3c7.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_fb0be.dir\\Debug\\".
+          Creando directorio "cmTC_7e3c7.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\Debug\\".
-          Creando directorio "cmTC_fb0be.dir\\Debug\\cmTC_fb0be.tlog\\".
+          Creando directorio "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\Debug\\".
+          Creando directorio "cmTC_7e3c7.dir\\Debug\\cmTC_7e3c7.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_fb0be.dir\\Debug\\cmTC_fb0be.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_fb0be.dir\\Debug\\cmTC_fb0be.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_7e3c7.dir\\Debug\\cmTC_7e3c7.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_7e3c7.dir\\Debug\\cmTC_7e3c7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb0be.dir\\Debug\\\\" /Fd"cmTC_fb0be.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e3c7.dir\\Debug\\\\" /Fd"cmTC_7e3c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\CheckFunctionExists.c"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.40.33808 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb0be.dir\\Debug\\\\" /Fd"cmTC_fb0be.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e3c7.dir\\Debug\\\\" /Fd"cmTC_7e3c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\Debug\\cmTC_fb0be.exe" /INCREMENTAL /ILK:"cmTC_fb0be.dir\\Debug\\cmTC_fb0be.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-shkvub/Debug/cmTC_fb0be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-shkvub/Debug/cmTC_fb0be.lib" /MACHINE:X64  /machine:x64 cmTC_fb0be.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\cmTC_fb0be.vcxproj]
-        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\cmTC_fb0be.vcxproj" (destinos predeterminados) -- ERROR.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\Debug\\cmTC_7e3c7.exe" /INCREMENTAL /ILK:"cmTC_7e3c7.dir\\Debug\\cmTC_7e3c7.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-nzxb5j/Debug/cmTC_7e3c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/CMakeScratch/TryCompile-nzxb5j/Debug/cmTC_7e3c7.lib" /MACHINE:X64  /machine:x64 cmTC_7e3c7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\cmTC_7e3c7.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\cmTC_7e3c7.vcxproj" (destinos predeterminados) -- ERROR.
         
         ERROR al compilar.
         
-        "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\cmTC_fb0be.vcxproj" (destino predeterminado) (1) ->
+        "C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\cmTC_7e3c7.vcxproj" (destino predeterminado) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-shkvub\\cmTC_fb0be.vcxproj]
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\HP\\Desktop\\Sistema\\Sistema-de-Emolientes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzxb5j\\cmTC_7e3c7.vcxproj]
         
             0 Advertencia(s)
             1 Errores
         
-        Tiempo transcurrido 00:00:01.05
+        Tiempo transcurrido 00:00:00.98
         
       exitCode: 1
 ...

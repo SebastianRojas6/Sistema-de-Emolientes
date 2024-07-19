@@ -17,6 +17,12 @@
 //Path to a file.
 ASIO_INCLUDE_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/include
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/share/boost
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/include
+
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lib.exe
 
@@ -80,7 +86,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/EmolientesVenta
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/SistemaDeVentaEmolientes
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.exe
@@ -115,7 +121,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=EmolientesVenta
+CMAKE_PROJECT_NAME:STATIC=SistemaDeVentaEmolientes
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=rc
@@ -194,20 +200,20 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //The directory containing a CMake configuration file for Crow.
 Crow_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/share/crow
 
-//Value Computed by CMake
-EmolientesVenta_BINARY_DIR:STATIC=C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build
-
-//Value Computed by CMake
-EmolientesVenta_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-EmolientesVenta_SOURCE_DIR:STATIC=C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes
-
 //Path to a file.
 SQLite3_INCLUDE_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/include
 
 //Path to a library.
 SQLite3_LIBRARY:FILEPATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/debug/lib/sqlite3.lib
+
+//Value Computed by CMake
+SistemaDeVentaEmolientes_BINARY_DIR:STATIC=C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes/build
+
+//Value Computed by CMake
+SistemaDeVentaEmolientes_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+SistemaDeVentaEmolientes_SOURCE_DIR:STATIC=C:/Users/HP/Desktop/Sistema/Sistema-de-Emolientes
 
 //Automatically copy dependencies into the output directory for
 // executables.
@@ -258,6 +264,9 @@ Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed
 
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/share/boost_headers
+
 
 ########################
 # INTERNAL cache entries
@@ -265,6 +274,8 @@ _VCPKG_INSTALLED_DIR:PATH=C:/Users/HP/Desktop/UNMSM/vcpkg/installed
 
 //ADVANCED property for variable: ASIO_INCLUDE_DIR
 ASIO_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -399,6 +410,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake][c ][v1.85.0()]
 //Details about finding SQLite3
 FIND_PACKAGE_MESSAGE_DETAILS_SQLite3:INTERNAL=[C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/include][C:/Users/HP/Desktop/UNMSM/vcpkg/installed/x64-windows/debug/lib/sqlite3.lib][v3.45.3()]
 //Details about finding asio
